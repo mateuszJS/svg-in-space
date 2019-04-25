@@ -1,0 +1,10 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  padding: 25px 25px 40px 25px;
+  flex-direction: column;
+  overflow: hidden;
+  @include tablet {
+    padding: 40px;
+  }
+}
